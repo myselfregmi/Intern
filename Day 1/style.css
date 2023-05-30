@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: rgb(58, 190, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+    
+}
+
+.container{
+    width: 100%;
+   background-color: rgba(253, 252, 252, 0.329);
+    display: flex;
+
+    
+}
+.container .container1{
+    background-color: rgb(110, 245, 110);
+    height: 400px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container2{
+    background-color: orange;
+    margin-left: 40px;
+    display: flex;
+    height: 400px;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+.container2 .image{
+    
+}
