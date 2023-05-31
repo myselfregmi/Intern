@@ -1,0 +1,59 @@
+*{
+  background-color: orange;
+}
+.container1{
+  width: 100%;
+}
+.green{
+  background-color: green;
+  height: 120px;
+  width: 50%;
+}
+.yellowblue{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 15px;
+}
+.yellow{
+  background-color: blue;
+  height: 120px;
+  flex: 1;
+  margin-top: 12px;
+}
+.blue{
+  background-color: yellow;
+  height: 120px;
+  flex: 1;
+  margin-top: 12px;
+}
+.redpurple{
+  
+  width: 50%;
+}
+.red{
+  background-color: red;
+  height: 150px;
+  margin-top: 12px;
+  width: 210px;
+  
+}
+.purple{
+  background-color: purple;
+  height: 70px ;
+  margin-top: 12px;
+  width: 210px ;
+}
+.skyblueblack {
+  width: 50%;
+}
+.skyblue{
+  background-color: rgb(90, 216, 216);
+  height: 100px;
+  margin-top: 12px;
+  width: 200px;
+}
+.black {
+  background-color: black;
+  height: ;
+}
