@@ -7,38 +7,52 @@ h1{
     justify-content: center;
     align-items: center;
     height: 50px;
+    color: aliceblue;
     
     
 }
 
 .container{
     width: 100%;
-   background-color: rgba(253, 252, 252, 0.329);
+   background-color:  aquamarine;
     display: flex;
 
     
 }
 .container .container1{
     background-color: rgb(110, 245, 110);
-    height: 400px;
-    width: 35%;
+    height: 450px;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.container2{
+/* .container2{
     background-color: orange;
     margin-left: 40px;
     display: flex;
-    height: 400px;
+    height: 450px;
     width: 65%;
     justify-content: center;
     align-items: center;
     color: aliceblue;
 
-}
-.container2 .image{
-    
-}
+} */
+.container .container10 {
+    display: flex;
+    margin-right: 30px;
+    width: 75%;
+    height:450px;
+    background-color: orange;
+    margin-left: 35px;
+  }
+  
+  .container10 > div {
+    background-color: rgb(226, 226, 42);;
+    margin: 15px;
+    padding: 30px ;
+    font-size: 10px;
+  }
+ 
