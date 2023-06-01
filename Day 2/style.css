@@ -1,59 +1,125 @@
 *{
   background-color: orange;
 }
-.container1{
+body{
   width: 100%;
+  height: 100%;
 }
+.container{
+  width: 100%;
+} 
+.container1{
+  width: 100%; 
+  display: flex; 
+  
+}
+.greenblueyellow{
+  width: 50%;
+  margin-top:85px;
+  margin-left: 150px;
+}
+
 .green{
   background-color: green;
   height: 120px;
-  width: 50%;
+ flex: 1;
+ margin-left: 100px;
 }
 .yellowblue{
   display: flex;
+  
+  gap: 25px;
   flex-direction: row;
-  width: 50%;
-  gap: 15px;
+  
 }
 .yellow{
   background-color: blue;
-  height: 120px;
+  height: 90px;
   flex: 1;
   margin-top: 12px;
+  margin-left: 100px;
+  
 }
 .blue{
   background-color: yellow;
-  height: 120px;
+  height: 90px;
   flex: 1;
   margin-top: 12px;
 }
 .redpurple{
-  
+  display: flex;
   width: 50%;
-}
+  gap: 25px;
+  margin-top:73px ;
+  margin-left: 40px;
+}  
+.rp12{
+  width: 30%;
+}  
 .red{
   background-color: red;
-  height: 150px;
+  height: 120px;
   margin-top: 12px;
-  width: 210px;
+
+  
   
 }
 .purple{
   background-color: purple;
-  height: 70px ;
+  height: 85px ;
   margin-top: 12px;
-  width: 210px ;
+  
+  
+  
 }
-.skyblueblack {
-  width: 50%;
+.skyblueblack{
+  width: 30%;
 }
+
 .skyblue{
   background-color: rgb(90, 216, 216);
-  height: 100px;
+  height: 85px;
   margin-top: 12px;
-  width: 200px;
+  
+  margin-left: 13px;
+  flex: 1;
+  
 }
 .black {
   background-color: black;
-  height: ;
+  height: 120px;
+  margin-top: 12px;
+  margin-left: 13px;
+  
+  flex: 15;
+  
+}
+.container2 {
+  width: 75%;
+  display: flex;
+  gap: 25px;
+  margin-left: 150px;
+  flex-direction: row;
+}
+.box1{
+  background-color: violet;
+  height: 110px;
+  margin-top: 12px;
+  margin-left: 100px;
+  flex: 1;
+}
+.box2{
+  background-color: greenyellow;
+  height:110px ;
+  flex: 3;
+  margin-top: 12px;
+}
+.content{
+  font-size: 95px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-shadow: 5px 3px white;
+
 }
