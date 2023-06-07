@@ -26,3 +26,36 @@ function Div(){
 }
 
 
+const class1 = document.querySelector(".fetch");
+class1.addEventListener("click", () =>{
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
+}
+)
+
+function multiply(a, b){
+    return (a*b);
+}
+let multiplyy = multiply(2,1);
+document.querySelector(".Multip").textContent=multiplyy;
+
+
+function inter(role){
+    if(role == "intern"){
+        return("I am a intern")
+    }else {
+        return("I am not a intern")
+    }
+}
+    const roole = inter("intern");
+console.log(roole);
+ 
+function number(what){
+    if(a/2 == 0){
+        return("Even Number")
+    }
+    else{
+        return("Odd Number")
+    }
+}
