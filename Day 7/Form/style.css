@@ -1,39 +1,108 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(93, 14, 168);
 }
 .container {
-    width: 600px;
+    width: 750px;
     height: 700px;
     background-color: white;
-    margin-top: 15px;
-    margin-left: 600px;
+    margin-top: 40px;
+    margin-left: 500px;
+   
 }
 .header{
     display: flex;
     color: black;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    padding-left: 200px;
+    font-size: 45px;
+    
     
 }
 .header h1{
+    
+    font-size: 60px;
+    margin-top: 15px;
+    
+    
+}
+
+.text{
     display: flex;
-    color: black;
+    justify-content: center;
+    margin-top: 5px;
+}
+.text h2{
+    color: rgb(117, 109, 109);
+    font-size: 22px;
+    margin-top: 22px;
+}
+input{
+    border-radius: 6px;
+    height: 50px;
+    
+}
+
+.write{
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.text1 {
+    display: flex;
+   
+    gap: 8px;
+    margin-top: 30px;
+
+   
+}
+.text1 input{
+    flex: 1;
+    background-color: whitesmoke;
+}
+.text12 {
+    width: 500px;
+}
+.text12 input{
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 50px;
+    width: 640px;
+    background-color: whitesmoke;
+  
+}
+.click{
+    display: flex;
+    gap: 5px;
+}
+label{
+    margin-top: 14px;
+}
+ .btn{
+    padding-left: 65px;
+   
+    /* //padding-right: 50px; */
+} 
+button{
+    /* padding: 14px; */
+    color: white;
+    font-weight: bold; 
+    height: 50px;
+    width: 640px;
+    cursor: pointer;
+}
+.correct{
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    
-    
-}
-.header h2{
-    display: flex;
-    font-size: 10px;
-    justify-content: center;
-    
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
 }
 
-
-.h2{
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
