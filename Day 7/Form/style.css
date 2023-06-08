@@ -106,3 +106,20 @@ button{
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.list1{
+    color: antiquewhite;
+    margin-left: 700px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.full{
+    background-color: aquamarine;
+    margin-left: 700px;
+    width: 300px;
+    border-radius: 8px;
+}
+#fname{
+    margin-left: 780px;
+    margin-top: 15px;
+    color: blanchedalmond;
+}
