@@ -1,0 +1,94 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    height: 100%;
+    
+    
+  }
+  body{
+    background-color: black;
+  }
+  .column {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+    flex-direction: column;
+    align-items: center;
+
+
+    
+    
+  
+    
+  }
+  .image-container .row .image-card{
+    margin-top: 0;
+  }
+  .row .image-card{
+    height: 410px;
+    width: 300px;
+    display: flex;
+    margin: 1px;
+  
+  }
+  .row{
+    height: 400px;
+    margin-left: 40px;
+  }
+  .column .image-card{
+    height: 200px;
+    width: 300px;
+    
+    
+  }
+  .image-card {
+    position: relative;
+    width: 400px;
+    height: 300px; 
+     margin-left: 140px;  
+    margin-top: 10px;
+  }
+  
+  .image-card img {
+    width: 100%;
+    border-radius: 6px;
+    height:100%;
+    object-fit: cover; 
+  
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 12px;
+
+    
+  }
+  
+  .text {
+    font-size: 23px;
+    color: rgb(239, 236, 236);
+  }
+  .row .image-card .text{
+    color: black;
+    
+  }
+  .heart-icon {
+    font-size: 40px;
+    text-align: right;
+    
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }

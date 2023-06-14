@@ -14,15 +14,24 @@
 
 import React from 'react'
 
-const Container = (props) => {
+const Container = ({title,icon, image, imageheight}) => {
   return (
     <div className='Box2'>
-      {props.children}
-      <h2>{props.title}</h2>
-  <hr />
+  
+<div className="box12">
+      <img src={image} alt='image' className='imageContainer' style={{height: imageheight}}>
+     
 
-      <p>{props.content}</p>
+
+      </img>
+      <h1>{icon}</h1>
+      <h2>{title}</h2>
+      
+</div>
+      
     </div>
+  
+
   )
 }
 
