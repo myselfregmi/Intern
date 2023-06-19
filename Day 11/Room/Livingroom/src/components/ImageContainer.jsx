@@ -21,7 +21,7 @@ const ImageContainer = () => {
           imageUrl="https://wpmedia.roomsketcher.com/content/uploads/2021/12/07192611/Decorating-Ideas-Living-Room-Design-Leaf-Print-Wallpaper-Home-Decor.jpg"
           text="Modern Living Room Design"
     
-          heartIcon="❤️"
+          heartIcon="💙"
         />
       </div>
     </div>
