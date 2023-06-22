@@ -1,0 +1,257 @@
+body{
+  background-color: blueviolet;
+  
+}
+.container{
+  /* background-color: whitesmoke; */
+   width: 100%; 
+
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 500px; */
+}
+  header a {
+    color: aqua;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    
+} 
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: 280px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 119, 119);
+  width: 150px;
+  height: 50px;
+  margin-right: -50px;
+  
+  border-radius: 10px;
+  
+}
+.btn21 {
+  margin-left: 600px;
+  
+
+}
+.Con1 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(134, 185, 185);
+  font-size: 36px;
+  margin-right: -200px;
+  
+}
+.home h1{
+  margin-left: 550px;
+  margin-top: -200px;
+  color: aqua;
+}
+.Con h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color: aqua; 
+  /* background-color: aqua; */
+  
+  font-size: 36px;
+  margin-right: -200px;
+}
+ .content{
+  background-color: whitesmoke;
+  height: 100%; 
+  width: 500px;
+  border-radius: 12px;
+  /* margin-top: 10px;
+  height: 500px;
+  width: 500px;*/
+  margin-left: 500px; 
+} 
+
+.content1 h1{
+  display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(11, 11, 207);
+        font-style: italic;
+        font-size: 35px;
+        
+    }
+    .text6 h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(42, 221, 221);
+      font-size: 36px;
+      margin-top: 40px;
+      margin-left: 450px;
+  }
+  .list h2{
+    margin-left: 450px;
+  }
+  td{
+    border: 1px solid black;
+    text-align: left;
+    
+    
+}
+
+td{
+  color: aliceblue;
+}
+  
+  .table {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+  .text6 h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-size: 36px;
+  }
+  /* margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center; */
+
+
+.content1 p{
+  /* margin-left: 140px;
+  font-size: 20px; */
+  display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 20px;
+        margin-top: 20px;
+        
+}
+
+.content2{
+  margin-left: 90px;
+
+}
+.content2 input {
+  font-size: 25px;
+  margin-top: 12px;
+  border-radius: 8px;
+  
+  box-shadow: 0px 4px 10px blue;
+
+}
+
+.content3{
+  margin-left: 90px;
+  margin-top: 40px;
+
+}
+.content3 a{
+  margin-left: 35px;
+}
+.button1 button{
+  margin-left: 150px;
+  font-size: 20px;
+  margin-top: 12px;
+  width: 200px;
+  background-color: rgb(26, 26, 237);
+}
+.btn5 button{
+  font-size: 15px;
+  width: 90px;
+  margin-left: 200px;
+  margin-top: 1px;
+}
+.button1 p{
+  margin-left: 100px;
+}
+/* .r1{
+  height: 700px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px;
+  background-color: whitesmoke;
+} */
+.r2 .title1 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px ;
+  color: blue;
+
+
+  
+}
+.r2{
+  background-color: whitesmoke;
+  
+  width: 450px;
+  height: 100%;
+  border-radius: 8px;
+  margin-left: 500px;
+}
+.title1 p{
+  font-size: 18px;
+  margin-left: 140px;
+  margin-top: 12px;
+}
+.text1 input{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 80px;
+  width: 300px;
+  border-radius: 8px;
+  
+  box-shadow: 0px 4px 10px blue;
+
+}
+.text2 input{
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.text2 a{
+  margin-left: 80px;
+}
+ .btn3 button{
+  
+  background-color: rgb(26, 26, 237);
+  
+ 
+}
+.btn4 button{
+  background-color: rgb(26, 26, 237);
+  
+} 
+ .bbb{
+  margin-top: 30px;
+  display: flex;
+  gap: 200px;
+  margin-left: 50px;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
