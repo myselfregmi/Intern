@@ -11,6 +11,7 @@ import { RiTodoLine } from "react-icons/ri";
 import { AiOutlineEye } from "react-icons/ai";
 import { BsFillCarFrontFill } from "react-icons/bs";
 import { PiExamBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -84,9 +85,15 @@ const Home = () => {
           </div>
           <div className=" ml-20 mt-20 bg-gradient-to-t from-blue-200 to-purple-600 gap-20 rounded-3xl  w-[1300px] h-[450px] ">
             <div className="flex justify-between mr-20">
-              <Iconsss title="Liscense Data" icon={<FiSearch />} />
-              <Iconsss title="Licene status " icon={<LiaIdCardSolid />} />
-              <Iconsss title="Online Exam" icon={<RiTodoLine />} />
+              <Link to="/license">
+                <Iconsss title="Liscense Data" icon={<FiSearch />} />
+              </Link>
+              <Link to="/listatus">
+                <Iconsss title="License status " icon={<LiaIdCardSolid />} />
+              </Link>
+              <Link to="/online">
+                <Iconsss title="Online Exam" icon={<RiTodoLine />} />
+              </Link>
               <Iconsss title="Color Vision" icon={<AiOutlineEye />} />
             </div>
             <div className="flex justify-center gap-20 ">

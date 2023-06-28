@@ -51,11 +51,11 @@ const Home = () => {
         </div>
 
         <div className="flex-1 relative mr-60">
-          <div className="bg-gradient-to-t from-indigo-600 via-purple-400 to-purple-300 w-[350px] h-[650px]  rounded-xl ml-56 translate-y-[-20px]"></div>
+          <div className="bg-gradient-to-t from-indigo-600 via-purple-400 to-purple-300 w-[350px] h-[650px]  rounded-xl ml-56 translate-y-[-10px]"></div>
           <div className=" absolute top-0 w-[650px] h-[100px] ">
             <img
               src={image}
-              className="w-[700px] h-[700px] translate-y-[-80px]"
+              className="w-[700px] h-[690px] translate-y-[-80px]"
             />
           </div>
         </div>
